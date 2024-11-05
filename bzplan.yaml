@@ -1,0 +1,5 @@
+name: whatever
+
+steps: 
+  - uses: pwsh
+    run:  'Write-Host "hello world"'

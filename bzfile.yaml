@@ -1,0 +1,11 @@
+
+
+tasks:
+  id: 
+    uses: pwsh
+    run:  'Write-Host "hello world"'
+
+jobs:
+  id:
+    steps:
+      - uses: tasks/id
